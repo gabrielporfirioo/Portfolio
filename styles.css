@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Sarala & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= família= Justo &Sarala & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Righteous&family=Sarala&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4e1e68, #000000);
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    justify-content: space-around;
+    
+} 
+
+.header p{
+    
+    margin-top: 50px;
+    font-size:xx-small;
+    font-family: 'Sarala';
+    
+    
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    font-family: 'Handjet';
+}
+
+.header-menu{
+    
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu-item{
+    font-family: 'Righteous', sans-serif;
+    color: #F5F5DC;
+}
+
+.header-menu-item:hover{
+    color: #bdbd91;
+    transition: color 0.5s;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.conteudo h2{
+text-align: center;
+background-color: #9400D3;
+border-radius: 10px;
+margin-left: 850px;
+padding: 10px;
+width: 200px;
+font-family: 'Righteous';
+
+
+}
+
+/*.conteudo h2:hover{
+    background: #131313;
+    transition: background 1s;
+    user-select: none; 
+    cursor: pointer;
+}-*/
+
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.2px solid #F5F5DC;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.project-card {
+    background-color: rgb(189, 127, 180);
+    border-radius: 90px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.project-card input{
+    background: #1f1b20;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px; 
+    font-family: 'Righteous' ;
+    font-size: larger;
+    color: #F5F5DC;
+    
+
+}
+
+.project-card input:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 0 rgba(30, 29, 29, 0.8);
+    opacity: 0.7;
+}
+
+.project-card:hover{
+    background: #bdbd91;
+    transition: background 1s;
+    user-select: none;
+    box-shadow: 5px 5px 0 rgba(30, 29, 29, 0.8);
+    transform: scale(1.1);
+    
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.project-card p {
+    font-family: 'Sarala';
+}
+
+.about p{
+    text-align: left;
+    margin: 50px;
+    padding: 50px;
+    font-size: large;
+    font-family: 'Righteous', sans-serif;
+    width: 1000px;
+    height: 300px;
+    
+    
+}
+
+.about {
+    border: 5px solid #F5F5DC;
+    border-radius: 10px;
+    background-color: #4e1e68;
+    margin: 50px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+.about img{
+    width: 25%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 50px
+}
+
+/*.about-box :hover { 
+    border: 3px solid rgb(23, 8, 31);
+    border-radius: 20px;
+    background-color: rgb(72, 45, 79);
+    transition: 1s;  
+}*/
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+
+
+.skills h7{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Righteous', sans-serif;
+    
+}
+
+.skills-card{
+    background-color: rgb(78, 14, 67);
+    border-radius: 150px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    flex-direction: row;
+    
+}
+
+.skills-card img{
+    max-width: 60%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.container{
+    background: linear-gradient(to bottom, #4e1e68, #000000);
+    width: 800px;
+    height: 300px;
+    margin: 100px;
+    padding: 80px;
+    border: #9400D3 solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.form-group{
+    padding: 0px;
+    font-family: 'Righteous';
+    
+}
+
+.form-group input{
+    margin: 15px;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+}
+
+.form-group textarea{
+    margin: 15px;
+    height: 100px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.container button {
+    border-radius: 10px;
+    background-color: #9400D3;
+    margin-left: 450px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Righteous';
+    font-size: 1.0rem;
+    color: #ffffff;
+    border-color: #F5F5DC ;
+    border: solid 2px;
+
+}
+
+.container button:hover{
+    cursor: pointer;
+    background: #4e1e68 ;
+    transition: background 0.5s;
+    box-shadow: 3px 3px 0 rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+.scroll{
+    
+    margin: 1800px;
+    font-size: xx-large;
+    color: #F5F5DC;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
